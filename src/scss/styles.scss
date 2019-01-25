@@ -1,0 +1,257 @@
+/* reset   */
+body {
+  font: 16px sans-serif;
+  margin: 0;
+}
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+  /* thème */
+
+  header {
+    width: auto;
+    font-size: 4.5vw;
+    background-color: rgba(5,92,168,1);
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  .menu {
+    display: flex;
+    padding: 15px;
+    background: linear-gradient(whitesmoke, grey 120%);
+    justify-content: space-around;
+  }
+  .menu div:hover{
+    color: grey;
+  }
+
+  .presentation {
+    width: 50vw;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    line-height: 30px;
+    border: solid 2px grey;
+  }
+
+  .main_title {
+    font-weight: bold;
+  }
+
+  .main_info {
+    width: 50vw;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  .main_info_content {
+    width: 50vw;
+    margin: auto;
+    margin-top: 60px;
+    line-height: 30px;
+  }
+
+  .rogerText{
+    margin-top: 25px;
+  }
+
+  .img__rogerfederer {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .img__nadal {
+    height: 100%;
+    width: 35%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .img__novak {
+    height: 100%;
+    width: 20%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  section h2 {
+    padding-bottom: 15px;
+  }
+
+  .form {
+    width: 50vw;
+    margin: auto;
+    margin-top: 60px;
+    background-color: rgb(141, 179, 230);
+    border-radius: 30px;
+    padding: 40px;
+  }
+
+  .form p {
+    margin-top: 30px;
+    line-height: 25px;
+  }
+
+  input {
+    margin: .4rem;
+    margin-top: 15px;
+  }
+
+  button {
+    float: right;
+    border: 1px solid black;
+  }
+
+  button:active {
+    background-color: grey;
+    color: rgb(141, 179, 230);
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 2%;
+    background-color:  rgba(5,92,168,1);
+  }
+
+  footer * {
+    text-align: center;
+  }
+
+
+
+    /* media querie 400 px */
+
+    @media screen and (max-width: 400px){
+      body {
+        font: 16px sans-serif;
+        margin: 0;
+      }
+      
+      header {
+        width: 100vw;
+        font-size: 4.5vw;
+        background-color: rgba(5,92,168,1);
+        color: whitesmoke;
+        text-align: center;
+      }
+  
+      .menu {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .menu div {
+        line-height: 25px;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 10px;
+      }
+
+      .menu div:active {
+        color: grey;
+      }
+
+      .presentation {
+        width: 300px;
+        margin: auto;
+        margin-top: 60px;
+        padding: 20px;
+        line-height: 30px;
+        border: none;
+      }
+
+      .main_title {
+        font-weight: bold;
+      }
+  
+      .main_info {
+        width: 80vw;
+        margin: auto;
+        margin-top: 60px;
+        padding: 20px;
+        line-height: 30px;
+      }
+  
+      .main_info_content {
+        width: 300px;
+        margin: auto;
+        margin-top: 60px;
+        line-height: 30px;
+      }
+
+      .img__rogerfederer {
+        height: 100%;
+        width: 80%;
+        padding-right: 10px;
+      }
+  
+      .img__nadal {
+        height: 100%;
+        width: 80%;
+        padding-right: 10px;
+      }
+  
+      .img__novak {
+        height: 100%;
+        width: 80%;
+        padding-right: 10px;
+      }
+
+      .form {
+        width: 300px;
+        margin: auto;
+        margin-top: 60px;
+        background-color: rgb(141, 179, 230);
+        border-radius: 5%;
+        padding: 5%;
+      }
+
+      .form p {
+        margin-top: 30px;
+        line-height: 25px;
+      }
+
+      input {
+        margin: .4rem;
+        margin-top: 15px;
+      } 
+
+      button {
+        float: right;
+        border: 1px solid black;
+      }
+
+      button:active {
+        background-color: grey;
+        color: rgb(141, 179, 230);
+      }
+
+      footer {
+        width: 100vw;
+        padding: 5%;
+        background-color:  rgba(5,92,168,1);
+      }
+    
+      footer * {
+        text-align: center;
+      }
+    }
